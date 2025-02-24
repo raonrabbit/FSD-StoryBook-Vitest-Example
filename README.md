@@ -1,0 +1,1 @@
+# FSD-StroyBook-Vitest-Example

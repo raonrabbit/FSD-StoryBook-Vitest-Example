@@ -1,5 +1,4 @@
-import { AddTodo } from "@/features/add-todo/ui";
-import { TodoList } from "@/features/todo-list/ui";
+import { AddTodo, TodoList } from "@/features/todo";
 
 export function TodoWidget() {
   return (

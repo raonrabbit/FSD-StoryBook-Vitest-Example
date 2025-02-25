@@ -1,4 +1,4 @@
-import { useState, useRef } from "react";
+import { useState } from "react";
 import { useDispatch } from "react-redux";
 import { addTodo } from "@/entities/todo/model";
 

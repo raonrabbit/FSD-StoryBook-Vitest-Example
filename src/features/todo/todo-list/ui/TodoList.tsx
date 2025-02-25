@@ -1,6 +1,6 @@
 import { useSelector, useDispatch } from "react-redux";
 import { selectTodos, toggleTodo, removeTodo } from "@/entities/todo/model";
-import { motion, AnimatePresence } from "framer-motion";
+import { motion } from "framer-motion";
 
 export function TodoList() {
   const todos = useSelector(selectTodos);

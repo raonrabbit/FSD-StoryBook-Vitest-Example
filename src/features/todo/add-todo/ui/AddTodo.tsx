@@ -16,7 +16,7 @@ export function AddTodo() {
   return (
     <form
       onSubmit={handleSubmit}
-      className="group w-full flex gap-2 px-4 py-2 bg-white opacity-50 hover:opacity-80 hover:focus-within:opacity-100 focus-within:opacity-100 rounded-xl shadow-md transition-all duration-300 ease-in-out"
+      className="group w-full flex gap-2 px-4 py-2 bg-white dark:text-black opacity-50 hover:opacity-80 hover:focus-within:opacity-100 focus-within:opacity-100 rounded-xl shadow-md transition-all duration-300 ease-in-out"
     >
       <input
         type="text"

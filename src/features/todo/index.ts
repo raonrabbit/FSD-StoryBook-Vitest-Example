@@ -1,2 +1,2 @@
 export { AddTodo } from "./add-todo/ui";
-export { TodoList } from "./todo-list/ui";
+export { TodoList, TodoListItem } from "./todo-list/ui";

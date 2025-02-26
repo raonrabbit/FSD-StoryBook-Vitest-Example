@@ -7,6 +7,7 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
+    "test": "vitest",
     "preview": "vite preview",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build"
@@ -34,6 +35,8 @@
     "@storybook/react": "^8.5.8",
     "@storybook/react-vite": "^8.5.8",
     "@storybook/test": "^8.5.8",
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.2.0",
     "@types/compose-function": "^0.0.33",
     "@types/react": "^18.3.18",
     "@types/react-dom": "^18.3.5",
@@ -45,12 +48,14 @@
     "eslint-plugin-react-refresh": "^0.4.16",
     "eslint-plugin-storybook": "^0.11.3",
     "globals": "^15.14.0",
+    "jsdom": "^26.0.0",
     "postcss": "^8.5.3",
     "storybook": "^8.5.8",
     "tailwindcss": "^3.4.17",
     "typescript": "~5.6.2",
     "typescript-eslint": "^8.18.2",
-    "vite": "^6.0.5"
+    "vite": "^6.0.5",
+    "vitest": "^3.0.7"
   },
   "eslintConfig": {
     "extends": [
